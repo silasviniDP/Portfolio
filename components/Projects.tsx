@@ -5,22 +5,7 @@ type Project = {
   url: string;
 };
 
-const projects: Project[] = [
-  {
-    name: "Projeto_1-Periodo",
-    lang: "C",
-    description:
-      "Projeto desenvolvido durante o 1º período do curso, aplicando lógica de programação em C.",
-    url: "https://github.com/silasviniDP/Projeto_1-Periodo",
-  },
-  {
-    name: "BC Black Concessionária",
-    lang: "colaboração",
-    description:
-      "Contribuição em projeto em grupo, com fork a partir do repositório de uma colega de turma.",
-    url: "https://github.com/silasviniDP/BC-Black-Concessionaria",
-  },
-];
+const projects: Project[] = [];
 
 export default function Projects() {
   return (
