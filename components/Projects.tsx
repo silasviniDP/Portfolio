@@ -54,7 +54,6 @@ export default function Projects() {
 
       <div className="rounded-md border border-dashed border-line p-4 font-mono text-sm text-ink-soft">
         // novos projetos em breve.
-        avança.
       </div>
     </section>
   );
