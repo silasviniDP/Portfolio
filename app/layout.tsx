@@ -27,6 +27,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${grotesk.variable} ${plexMono.variable}`}>
+        <head>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                (function () {
+                  try {
+                    var stored = localStorage.getItem("theme");
+                    if (stored === "dark" || stored === "light") {
+                      document.documentElement.classList.add(stored);
+                    }
+                  } catch (e) {}
+                })();
+              `,
+            }}
+          />
+        </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
   );

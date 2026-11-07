@@ -1,3 +1,5 @@
+import ThemeToggle from "./ThemeToggle";
+
 const chips = [
   { label: "svestudos40@gmail.com", href: "mailto:svestudos40@gmail.com" },
   { label: "LinkedIn", href: "https://linkedin.com/in/silasvinidp" },
@@ -9,6 +11,7 @@ export default function Hero() {
     <>
       <div className="flex items-center justify-between pt-5 text-[13px] text-ink-soft font-mono">
         <span>Recife, PE</span>
+        <ThemeToggle />
       </div>
 
       <header className="border-b border-line pb-12 pt-14">
