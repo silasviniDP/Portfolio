@@ -2,16 +2,12 @@ const chips = [
   { label: "svestudos40@gmail.com", href: "mailto:svestudos40@gmail.com" },
   { label: "LinkedIn", href: "https://linkedin.com/in/silasvinidp" },
   { label: "GitHub", href: "https://github.com/silasviniDP" },
-  { label: "(81) 98210-4083", href: "tel:+5581982104083" },
 ];
 
 export default function Hero() {
   return (
     <>
       <div className="flex items-center justify-between pt-5 text-[13px] text-ink-soft font-mono">
-        <span>
-          <span className="text-accent">●</span> disponível para estágio
-        </span>
         <span>Recife, PE</span>
       </div>
 
@@ -27,7 +23,7 @@ export default function Hero() {
         </p>
         <p className="mt-4 max-w-[56ch] text-ink-soft">
           19 anos, 2º período na Faculdade Imaculada Conceição do Recife.
-          Construindo base em lógica e programação — hoje com Java e SQL,
+          Construindo base em lógica e programação, hoje com Java e SQL,
           depois de passar por C, HTML e CSS em sala de aula.
         </p>
 

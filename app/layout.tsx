@@ -15,7 +15,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Silas Vinícius — Portfólio",
+  title: "Silas Vinícius, Portfólio",
   description:
     "Estudante de Análise e Desenvolvimento de Sistemas na Faculdade Imaculada Conceição do Recife.",
 };

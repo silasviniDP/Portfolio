@@ -1,9 +1,8 @@
 const items = [
   { label: "EMAIL", value: "svestudos40@gmail.com", href: "mailto:svestudos40@gmail.com" },
-  { label: "TELEFONE", value: "(81) 98210-4083", href: "tel:+5581982104083" },
   { label: "LINKEDIN", value: "/in/silasvinidp", href: "https://linkedin.com/in/silasvinidp" },
   { label: "GITHUB", value: "/silasviniDP", href: "https://github.com/silasviniDP" },
-  { label: "LOCAL", value: "Recife, PE — Brasil", href: null },
+  { label: "LOCAL", value: "Recife, PE, Brasil", href: null },
 ];
 
 export default function Contact() {

@@ -9,8 +9,8 @@ export default function About() {
         de um problema antes de sair escrevendo código.
       </p>
       <p className="mt-3.5 max-w-[62ch]">
-        Meu foco agora é consolidar Java e SQL — as linguagens com que mais
-        pratico — enquanto sigo revisando C, HTML e CSS, vistos na
+        Meu foco agora é consolidar Java e SQL, as linguagens com que mais
+        pratico, enquanto sigo revisando C, HTML e CSS, vistos na
         faculdade.
       </p>
     </section>
